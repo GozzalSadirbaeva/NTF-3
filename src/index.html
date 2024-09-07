@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/fonts/SpaceMono-Bold.woff2">
+    <link rel="stylesheet" href="/fonts/SpaceMono-BoldItalic.woff2">
+    <link rel="stylesheet" href="/fonts/SpaceMono-Italic.woff2">
+    <link rel="stylesheet" href="/fonts/SpaceMono-Regular.woff2">
+    <link rel="stylesheet" href="/fonts/WorkSans-Italic-VariableFont_wght.woff2">
+    <link rel="stylesheet" href="/fonts/WorkSans-VariableFont_wght.woff2">
+</head>
+
+<body>
+    <header class="container">
+        <nav class="flex justify-between items-center py-5 px-3">
+            <img src="/img/logo.svg" alt="">
+            <div class="lg:flex hidden items-center gap-7 ">
+                <ul class="flex gap-16 items-center justify-center px-2">
+                    <li><a class="font-semibold text-base leading-5" href="">Marketplace</a></li>
+                    <li><a class="font-semibold text-base leading-5" href="">Rankings</a></li>
+                    <li><a class="font-semibold text-base leading-5" href="">Connect a wallet</a></li>
+                </ul>
+                <button
+                    class="flex gap-3 px-7 py-5 bg-violet rounded-3xl font-semibold text-base leading-5"><img
+                        src="/img/User.svg" alt="">Sign Up</button>
+            </div>
+            <img class="lg:hidden" src="/img/Burger Menu.svg" alt="">
+        </nav>
+    </header>
+    <section class="container">
+        <div class="grid grid-cols-1 justify-items-center md:grid-cols-2 gap-2 max-md:gap-7  items-center">
+            <div class="w-full h-auto">
+                <img class="object-contain" width="100%" height="auto" src="/img/banner.png" alt="">
+            </div>
+            <div>
+                <h2 class="font-semibold text-5xl leading-12 mb-5">Connect wallet</h2>
+                <h3 class="font-normal text-xl leading-8 mb-10 font-space">Choose a wallet you want to connect. <br>There are several wallet providers.</h3>
+                <div class="max-w-[320px] grid gap-5">
+                    <button class="w-full flex items-center gap-5 font-semibold text-xl leading-7 py-4 px-10 border - [1px] border-solid border-violet rounded-2xl"><img src="/img/Metamask.svg" alt="">Metamask</button>
+                    <button class="w-full flex items-center gap-5 font-semibold text-xl leading-7 py-4 px-10 border - [1px] border-solid border-violet rounded-2xl"><img src="/img/WalletConnect.svg" alt="">Wallet Connect</button>
+                    <button class="w-full flex items-center gap-5 font-semibold text-xl leading-7 py-4 px-10 border - [1px] border-solid border-violet rounded-2xl"><img src="/img/Coinbase.svg" alt="">Coinbase</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray2 md:mt-0 mt-10 pb-10 " >
+        <div class="px-10 container ">
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 pt-10 pb-7 gap-7 md:gap-10 ">
+                <div>
+                    <img class="mb-7" src="/img/logo.svg" alt="">
+                    <p class="text-gray font-normal text-base leading-5 mb-5 ">NFT marketplace UI created with Anima for Figma.</p>
+                    <p class="text-gray font-normal text-base leading-5 mb-4 ">Join our community</p>
+                    <div class="flex gap-[10px]">
+                        <img src="/img/DiscordLogo.svg" alt="">
+                        <img src="/img/YoutubeLogo.svg" alt="">
+                        <img src="/img/TwitterLogo.svg" alt="">
+                        <img src="/img/InstagramLogo.svg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <p class="font-space font-bold text-xl leading-8 mb-7">Explore</p>
+                    <ul>
+                        <li class="pb-5"><a class="text-gray font-normal text-base leading-5" href="">Marketplace</a></li>
+                        <li class="pb-5"><a class="text-gray font-normal text-base leading-5" href="">Rankings</a></li>
+                        <li class="pb-5"><a class="text-gray font-normal text-base leading-5" href="">Connect a wallet</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-space font-bold text-xl leading-8 mb-7">Join our weekly digest</p>
+                    <p class="text-gray font-normal text-base leading-5">Get exclusive promotions & updates straight to your inbox.</p>
+                    <form action="" class="grid grid-cols-1 md:grid-cols-2  md:bg-white gap-4 md:gap-1 rounded-3xl mt-5  lg:w-full w-[400px]">
+                        <input class="pl-4 pr-3 py-5 rounded-3xl text-black" type="email" placeholder="Enter your email here">
+                        <button class="bg-violet px-12 py-5 rounded-3xl font-normal text-base leading-5" type="submit"><span><img src="./img/EnvelopeSimple.svg" alt=""></span>Subscribe</button>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="border-t-2 border-gray3">
+                <p class="font-normal text-base leading-5 text-gray pt-5">Ⓒ NFT Market. Use this template freely.</p>
+            </div>
+        </div>
+       
+    </footer>
+</body>
+
+</html>
